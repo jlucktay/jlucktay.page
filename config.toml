@@ -1,5 +1,5 @@
-# # Seems broken, so it gets specified in magefile.go as well
-# BaseURL = "https://jlucktay.page"
+# Seems broken, so it gets specified in magefile.go as well
+BaseURL = "https://jlucktay.page"
 
 # https://themes.gohugo.io/hugo-coder/
 Theme = "coder"
@@ -85,27 +85,27 @@ PygmentsCodeFencesGuessSyntax = true # Enable syntax guessing for code fences wi
             footercontent = "Enter text here." # Add footer content
             keywords = "developer,engineer,info,personal" # Site keywords.
 
-        # [languages.en.menu] # It is possible to change the menu too.
+        [languages.en.menu] # It is possible to change the menu too.
 
-        #     [[languages.en.menu.main]]
-        #         name = "About"
-        #         URL = "/about/"
-        #         weight = 1
+            [[languages.en.menu.main]]
+                name = "About"
+                URL = "/about/"
+                weight = 1
 
-        #     [[languages.en.menu.main]]
-        #         name = "Blog"
-        #         URL = "/blog/"
-        #         weight = 2
+            [[languages.en.menu.main]]
+                name = "Blog"
+                URL = "/blog/"
+                weight = 2
 
-        #     [[languages.en.menu.main]]
-        #         name = "Projects"
-        #         URL = "/projects/"
-        #         weight = 3
+            [[languages.en.menu.main]]
+                name = "Projects"
+                URL = "/projects/"
+                weight = 3
 
-        #     [[languages.en.menu.main]]
-        #         name = "Contact me"
-        #         URL = "/contact/"
-        #         weight = 5
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                URL = "/contact/"
+                weight = 5
 
     [languages.cz]
         languagename = "Čeština"
@@ -116,24 +116,24 @@ PygmentsCodeFencesGuessSyntax = true # Enable syntax guessing for code fences wi
             footercontent = "Zadejte zde text."
             keywords = "vývojář,inženýr,informace,osobní"
 
-        # [languages.cz.menu]
+        [languages.cz.menu]
 
-        #     [[languages.cz.menu.main]]
-        #         name = "O mnie"
-        #         URL = "/cz/about/"
-        #         weight = 1
+            [[languages.cz.menu.main]]
+                name = "O mně"
+                URL = "/cz/o-mně/"
+                weight = 1
 
-        #     [[languages.cz.menu.main]]
-        #         name = "Blog"
-        #         URL = "/cz/blog/"
-        #         weight = 2
+            [[languages.cz.menu.main]]
+                name = "Blog"
+                URL = "/cz/blog/"
+                weight = 2
 
-        #     [[languages.cz.menu.main]]
-        #         name = "projektowanie"
-        #         URL = "/projektowanie/"
-        #         weight = 3
+            [[languages.cz.menu.main]]
+                name = "Projektů"
+                URL = "/cz/projektů/"
+                weight = 3
 
-        #     [[languages.cz.menu.main]]
-        #         name = "kontakt"
-        #         URL = "/kontakt/"
-        #         weight = 5
+            [[languages.cz.menu.main]]
+                name = "Kontakt"
+                URL = "/cz/kontakt/"
+                weight = 5
